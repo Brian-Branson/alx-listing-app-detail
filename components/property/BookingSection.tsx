@@ -4,7 +4,7 @@ const BookingSection: React.FC<{ price: number }> = ({ price }) => {
       <h3 className="text-xl font-semibold">${price}/night</h3>
       <div className="mt-4">
         <label>Check-in</label>
-        <input type="date" className="border p-2 w-full mt-2" />
+        <input  type="date" className="border p-2 w-full mt-2" />
       </div>
       <div className="mt-4">
         <label>Check-out</label>
